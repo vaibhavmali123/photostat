@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/splash_screen"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/welcome_illu"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_background"
+        android:orientation="vertical">
+
+         <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Log in"
+             android:fontFamily="sans-serif"
+       android:textSize="30sp"
+       android:layout_gravity="center_horizontal"/>
+   <Button
+       android:id="@+id/customer"
+       android:layout_width="300dp"
+       android:layout_height="80dp"
+       android:text="Customer"
+       android:fontFamily="sans-serif"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:paddingBottom="15sp"
+       android:textColor="@color/colorWhite"
+       android:background="@drawable/type_button"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="30dp"
+       android:textAllCaps="false"/>
+   <Button
+       android:id="@+id/partner"
+       android:layout_width="300dp"
+       android:layout_height="80dp"
+       android:text="Partner"
+       android:textAllCaps="false"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       android:fontFamily="sans-serif"
+       android:paddingBottom="15sp"
+       android:textColor="@color/colorWhite"
+       android:background="@drawable/type_button"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+   <!-- <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Customer"
+        android:textSize="20sp"
+        android:paddingBottom="15sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/type_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/partner"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:text="Partner"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:paddingBottom="15sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/type_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>-->
+
+</LinearLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".PackageDetailsActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/package_apply_bg">
+
+      <LinearLayout
+          android:layout_marginTop="35dp"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal">
+          <TextView
+              android:layout_width="150dp"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:layout_marginStart="20dp"
+              android:textSize="25sp"
+              android:textColor="@color/colorWhite"
+              android:id="@+id/package_name_apply"/>
+
+      </LinearLayout>
+
+        <TextView
+            android:id="@+id/package_details_apply"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/first_name"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:hint="First Name *"
+            android:textColor="#000"
+            android:backgroundTint="#000"
+            android:textColorHint="#000"/>
+        <EditText
+            android:id="@+id/last_name"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:hint="Last Name *"
+            android:textColor="#000"
+            android:backgroundTint="#000"
+            android:textColorHint="#000"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/city_name"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:hint="City *"
+            android:textColor="#000"
+            android:backgroundTint="#000"
+            android:textColorHint="#000"/>
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:hint="Mobile Number *"
+            android:textColor="#000"
+            android:backgroundTint="#000"
+            android:textColorHint="#000"/>
+
+    </LinearLayout>
+    <!--<EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="City *"
+        android:backgroundTint="#000"
+        android:textColorHint="#000"/>-->
+    <EditText
+        android:id="@+id/event_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="Event Name *"
+        android:textColor="#000"
+        android:backgroundTint="#000"
+        android:textColorHint="#000"/>
+    <EditText
+        android:id="@+id/address"
+        android:layout_marginTop="20dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="Address *"
+        android:textColor="#000"
+        android:backgroundTint="#000"
+        android:textColorHint="#000"/>
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Apply"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/login_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

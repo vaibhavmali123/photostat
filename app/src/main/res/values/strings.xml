@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PHOTOSTAT</string>
+    <string name="title_activity_choose_category">ChooseCategory</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="base_url">http://meradaftar.com/phoyoshop/api/</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_categories">categories</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="description">Now you can order multiple photos with different sizes
+directly from your home. With Riya studio you can order and
+print digital photos online and get delivered anywhere in
+Maharashtra that will be cherished for years to come.
+ Make your memorable movements into physical copies for
+lifetime.
+ We use high quality Archive paper to print your pictures
+with offering you to choose glossy or matte surface. The
+print sizes available are PC, 4x6, 5x7, 6x8, 8x10,8 x
+12,10x12,12 x15,12 x18,16 x20,16 x24,20 x30,24 x30,30
+x40 . The pictures are professionally enhanced for more
+lively and vivid colours. </string>
+    <string name="title_activity_home">Home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="facebook_app_id">2833833783595455</string>
+    <string name="fb_login_protocol_scheme">fb2833833783595455</string>
+    <string name="photo">Photo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_complete_package">CompletePackage</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+
+</resources>

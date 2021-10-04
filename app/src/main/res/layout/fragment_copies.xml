@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentCopies">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/tab3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/copies"
+        android:orientation="vertical">
+
+        <!--Text View for applying the text to the tab-->
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:id="@+id/minus"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minus"/>
+
+            <TextView
+                android:id="@+id/copies"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:text="1"
+                android:background="@drawable/subcategory_row"
+                android:textColor="#4E4B90"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:padding="2dp"
+                android:layout_marginStart="10dp"/>
+
+            <ImageView
+                android:id="@+id/plus"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/plus"
+                android:layout_marginStart="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
